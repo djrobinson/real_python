@@ -17,3 +17,18 @@ def return_difference(n1, n2):
     """Return the difference between two numbers.
        Subtracts n2 from n1."""
     return n1 - n2
+
+def cel_to_fahr(temp):
+    return float(temp) * 9 / 5 + 32
+
+def fahr_to_cel(temp):
+    return (float(temp) - 32) * 5 / 9
+
+print(cel_to_fahr(28))
+print(fahr_to_cel(108))
+
+n = 1
+while (n < 5):
+    print("n=",n)
+    n = n + 1
+print("loop finished!")
