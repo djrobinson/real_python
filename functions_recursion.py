@@ -27,8 +27,19 @@ def fahr_to_cel(temp):
 print(cel_to_fahr(28))
 print(fahr_to_cel(108))
 
+'''
 n = 1
 while (n < 5):
     print("n=",n)
     n = n + 1
 print("loop finished!")
+'''
+'''
+for n in range(1, 5):
+    print("n=",n)
+print("loop finished")
+'''
+
+for n in range(1, 4):
+    for j in ["a","b","c"]:
+        print("n=",n,"j=",j)
